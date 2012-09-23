@@ -1,6 +1,6 @@
 # Arduino Toy Server
 
-Demonstrate sending a api packet to the Arduino from Android.
+Demonstrate sending a api packet to the Arduino from Android [Toy Controller](https://github.com/birdming22/ToyController).
 
 ## API Format
 Any Byte except API ID should not be larger than 0x7F.
@@ -26,5 +26,6 @@ Payload length is one byte and max value is 127.
 Payload length is N bytes. N is payload length.
 
 ## Reference
-   
+
+
 [DataReceiver](https://github.com/markfickett/DataReceiver)
